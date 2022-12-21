@@ -1,0 +1,11 @@
+.iframe {
+  height: 400px;
+  width: 55%;
+}
+.row {
+  display: flex;
+}
+
+.intro {
+  width: 40%;
+}

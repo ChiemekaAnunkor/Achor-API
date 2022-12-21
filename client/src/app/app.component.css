@@ -1,0 +1,11 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1.5px solid gray;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.logo-img {
+  border-radius: 100%;
+}

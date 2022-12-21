@@ -1,0 +1,44 @@
+<!-- <a routerLink="/home"><button class="btn btn-success">Submit</button></a>
+<button type="submit" (click)="setInput()">اعمال</button>
+<button type="submit" class="hello" (click)="eventss('2')"></button>
+<input #myname /> -->
+<section class="row">
+  <div class="intro">
+    <h1>Achor API</h1>
+    <h3>SLogo is the SLogo to carry this team</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Suspendisse sed nisi
+      lacus sed. Amet purus gravida quis blandit turpis cursus in hac.
+    </p>
+    <input
+      #gsinput
+      (input)="gettingStartedInput(gsinput.value)"
+      type="text"
+      value="text"
+      placeholder="Enter Text"
+    />
+    <input
+      #testinput
+      (input)="gettingStartedInput(testinput.value)"
+      type="text"
+      value="text"
+      placeholder="Enter Text"
+    />
+    <button (click)="gettingStarted()">Getting Started</button>
+
+    <div>
+      <ul class="listings">
+        <li *ngFor="let list of lists">{{ list }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="iframe">
+    <iframe
+      src="https://my.spline.design/coloredcompositioncopy-1c829b6f1dc2d70c83ba91a41d4048bd/"
+      frameborder="0"
+      width="100%"
+      height="100%"
+    ></iframe>
+  </div>
+</section>
