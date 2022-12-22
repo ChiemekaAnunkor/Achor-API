@@ -1,3 +1,4 @@
+html,
 body {
   --darkblue: #1e55b3;
 }
@@ -6,9 +7,10 @@ nav {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid var(--darkblue);
-  margin-bottom: 40px;
   padding: 20px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  margin: 15px 10px 40px 10px;
 }
 
 .logo-img {
@@ -17,4 +19,29 @@ nav {
 
 .progile-logo {
   border-radius: 100%;
+}
+nav div {
+  display: flex;
+}
+.logo-t {
+  font-size: 20px;
+  position: relative;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.logo-t2 {
+  color: white;
+}
+
+nav div a {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+nav div img {
+  margin-left: 10px;
+}
+footer {
+  height: 200px;
+  background-image: url("../assets/background.png");
 }

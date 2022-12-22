@@ -1,10 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 body {
+  margin: 0;
+  padding: 0;
   background: rgb(30, 85, 179);
   background: linear-gradient(
     160deg,
     rgba(30, 85, 179, 1) 0%,
     rgba(255, 255, 255, 1) 45%
   );
+  background-repeat: no-repeat;
+
   height: 100vh;
+}
+.icon-rel {
+  border-radius: 50%;
 }
