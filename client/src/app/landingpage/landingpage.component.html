@@ -2,35 +2,48 @@
 <button type="submit" (click)="setInput()">اعمال</button>
 <button type="submit" class="hello" (click)="eventss('2')"></button>
 <input #myname /> -->
+<!-- <input
+  #gsinput
+  (input)="gettingStartedInput(gsinput.value)"
+  type="text"
+  value="text"
+  placeholder="Enter Text"
+/>
+<input
+  #testinput
+  (input)="gettingStartedInput(testinput.value)"
+  type="text"
+  value="text"
+  placeholder="Enter Text"
+/>
+<button (click)="gettingStarted()">Getting Started</button> -->
+<!-- <div>
+  <ul class="listings">
+    <li *ngFor="let list of lists">{{ list }}</li>
+  </ul>
+</div>
+</div> -->
 <section class="row">
   <div class="intro">
-    <h1>Achor API</h1>
-    <h3>SLogo is the SLogo to carry this team</h3>
+    <button>Rest API</button>
+    <h1>Welcome to AchorAPI Collections!</h1>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Suspendisse sed nisi
-      lacus sed. Amet purus gravida quis blandit turpis cursus in hac.
+      Browse through our collections of APIs. Discover and connect learn about
+      our APIs that iscurated and recommended based on functionality offered,
+      performance, and support!
     </p>
-    <input
-      #gsinput
-      (input)="gettingStartedInput(gsinput.value)"
-      type="text"
-      value="text"
-      placeholder="Enter Text"
-    />
-    <input
-      #testinput
-      (input)="gettingStartedInput(testinput.value)"
-      type="text"
-      value="text"
-      placeholder="Enter Text"
-    />
-    <button (click)="gettingStarted()">Getting Started</button>
-
-    <div>
-      <ul class="listings">
-        <li *ngFor="let list of lists">{{ list }}</li>
-      </ul>
+    <div class="btn">
+      <button routerLink="/docs">
+        Get Started
+        <div>
+          <img
+            src="https://cdn-user-icons.flaticon.com/88478/88478808/1671688913581.svg?token=exp=1671689815~hmac=9060a4cb6afb03f26d027f89bf126852"
+            alt="chevron right"
+            width="15"
+          />
+        </div>
+      </button>
+      <button routerLink="/collections">Browse API's</button>
     </div>
   </div>
   <div class="iframe">

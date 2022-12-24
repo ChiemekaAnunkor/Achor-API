@@ -13,5 +13,4 @@ export class SignupComponent implements OnInit {
   submit(login: any) {
     console.log('Form Submitted !', login.form.value);
   }
-  
 }

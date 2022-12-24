@@ -1,0 +1,9 @@
+<section>
+  <p class="pleaselogin" *ngIf="message.email == null">Please Login!</p>
+  <div class="userdash">
+    <p>{{ message.firstName }}</p>
+    <p>{{ message.lastName }}</p>
+    <p>{{ message.email }}</p>
+    <p>{{ message.apiKey }}</p>
+  </div>
+</section>

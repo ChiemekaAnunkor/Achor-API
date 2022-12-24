@@ -1,0 +1,43 @@
+section {
+  min-height: 61vh;
+  height: 100%;
+}
+.topcontainer {
+  margin-left: 20px;
+}
+.row {
+  display: flex;
+}
+.image {
+  /* border: 2px solid black; */
+  margin-left: 20px;
+}
+.apicontrol {
+  display: flex;
+  min-height: 450px;
+  margin-bottom: 20px;
+}
+.query {
+  width: 50%;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.query div {
+  padding: 10px;
+}
+.codesnipe {
+  width: 50%;
+  border: 2px solid gray;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.codesnipe div {
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+  background-color: #1e55b3;
+  color: white;
+  padding: 5px;
+}

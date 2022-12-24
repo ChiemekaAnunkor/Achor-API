@@ -3,17 +3,28 @@ let Schema = mongoose.Schema;
 
 let userSchema = new Schema(
     {
-        name: {
+        first_name: {
+            type: String,
+        },
+        last_name: {
             type: String,
         },
         email: {
             type: String,
+            unique: true
         },
         password: {
             type: String,
         },
+        access_token_id: { type: Schema.Types.ObjectId, ref: 'token' }
+
     },
-    { timestamps: true }
+    { timestamps: true },
+    {
+        toJSON: {
+            virtuals: true,
+        },
+    }
 );
 
 let User = mongoose.model("user", userSchema);
