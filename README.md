@@ -13,7 +13,8 @@ Table of Contents
 
 ## Description
 
-This is an api services simular to rapidapi, it over access to multiple API's, with great and clear documention. Check out the api.
+This is an api services simular to rapidapi, it over access to multiple API's, with great and clear documention. Check it out!
+Browse through our collections of APIs. Discover and connect learn about our APIs that iscurated and recommended based on functionality offered, performance, and support!
 
 ## Tech-Stack
 
@@ -66,6 +67,7 @@ node server.js
 ```
 
 ## Demo
+![image](https://user-images.githubusercontent.com/63639477/209417851-7c72db8d-b966-479f-9a5d-a094c4569adf.png)
 
 ## links
  add deployed link here
