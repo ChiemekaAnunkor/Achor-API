@@ -22,15 +22,16 @@ Front end:
 
 [![Angular JS](https://img.shields.io/badge/Tech%20JS-Angular%20JS-red.svg)](https://opensource.org/licenses/MIT)
 [![Typscript](https://img.shields.io/badge/Tech-Typscript-blue.svg)](https://opensource.org/licenses/MIT)
-[![HTML](https://img.shields.io/badge/Tech-HTML-red.svg)](https://opensource.org/licenses/MIT)
-[![CSS](https://img.shields.io/badge/Tech-CSS-Blue.svg)](https://opensource.org/licenses/MIT)
+[![HTML](https://img.shields.io/badge/Tech-HTML-orange.svg)](https://opensource.org/licenses/MIT)
+[![CSS](https://img.shields.io/badge/Tech-CSS-blue.svg)](https://opensource.org/licenses/MIT)
 
 Backend
 
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
+[![Node JS](https://img.shields.io/badge/Tech%20JS-Node%20JS-yellowgreen.svg)](https://opensource.org/licenses/MIT)
+[![Mongo DB](https://img.shields.io/badge/Tech-MonoDB-blue.svg)](https://opensource.org/licenses/MIT)
+[![Express](https://img.shields.io/badge/Tech-Express-red.svg)](https://opensource.org/licenses/MIT)
+[![Mongoose](https://img.shields.io/badge/Tech-CSS-lightgrey.svg)](https://opensource.org/licenses/MIT)
+
 
 ## User-Story
 
