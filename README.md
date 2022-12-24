@@ -67,26 +67,25 @@ node server.js
 ## Demo
 
 ## links
-
-add deployed link here
+ add deployed link here
 
 ## Tree
 .
 ├── Client
 ├── src
-│ ├── App
-│ │ ├── api dash
-│ │ ├── document
-│ │ ├── landing page
-│ │ ├── signup page
-│ │ ├── user dash
-│ │ └── login page
+│   ├── App
+│   │    ├── api dash
+│   │    ├── document
+│   │    ├── landing page
+│   │    ├── signup page
+│   │    ├── user dash
+│   │    └── login page
 ├── Server
-│ ├── config
-│ ├── controller
-│ ├── model
-│ ├── routes
-│ └── utils
+│   ├── config
+│   ├── controller
+│   ├── model
+│   ├── routes
+│   └── utils
 └── README.md
 
 ## liscences
