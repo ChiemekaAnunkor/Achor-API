@@ -18,12 +18,12 @@ This is an api services simular to rapidapi, it over access to multiple API's, w
 ## Tech-Stack
 
 Project is created with:
-Front end
-[![License: MIT](https://img.shields.io/badge/Angular%20JS-Angular%20JS-red.svg)](https://opensource.org/licenses/MIT)
+Front end:
 
-- HTML
-- CSS
-- Typescript
+[![Angular JS](https://img.shields.io/badge/Tech%20JS-Angular%20JS-red.svg)](https://opensource.org/licenses/MIT)
+[![Typscript](https://img.shields.io/badge/Tech-Typscript-blue.svg)](https://opensource.org/licenses/MIT)
+[![HTML](https://img.shields.io/badge/Tech-HTML-red.svg)](https://opensource.org/licenses/MIT)
+[![CSS](https://img.shields.io/badge/Tech-CSS-Blue.svg)](https://opensource.org/licenses/MIT)
 
 Backend
 
