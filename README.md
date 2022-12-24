@@ -20,14 +20,14 @@ This is an api services simular to rapidapi, it over access to multiple API's, w
 Project is created with:
 Front end:
 
-[![Angular JS](https://img.shields.io/badge/Tech%20JS-Angular%20JS-red.svg)](https://opensource.org/licenses/MIT)
+[![Angular JS](https://img.shields.io/badge/Tech-Angular%20JS-red.svg)](https://opensource.org/licenses/MIT)
 [![Typscript](https://img.shields.io/badge/Tech-Typscript-blue.svg)](https://opensource.org/licenses/MIT)
 [![HTML](https://img.shields.io/badge/Tech-HTML-orange.svg)](https://opensource.org/licenses/MIT)
 [![CSS](https://img.shields.io/badge/Tech-CSS-blue.svg)](https://opensource.org/licenses/MIT)
 
 Backend
 
-[![Node JS](https://img.shields.io/badge/Tech%20JS-Node%20JS-yellowgreen.svg)](https://opensource.org/licenses/MIT)
+[![Node JS](https://img.shields.io/badge/Tech-Node%20JS-yellowgreen.svg)](https://opensource.org/licenses/MIT)
 [![Mongo DB](https://img.shields.io/badge/Tech-MonoDB-blue.svg)](https://opensource.org/licenses/MIT)
 [![Express](https://img.shields.io/badge/Tech-Express-red.svg)](https://opensource.org/licenses/MIT)
 [![Mongoose](https://img.shields.io/badge/Tech-CSS-lightgrey.svg)](https://opensource.org/licenses/MIT)
