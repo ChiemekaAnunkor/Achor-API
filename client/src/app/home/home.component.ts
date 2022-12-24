@@ -87,16 +87,16 @@ export class HomeComponent implements OnInit {
   pinFun() {
     const pinterest = document.querySelector('.pinterest');
     console.log(pinterest);
-    this.selectedapi.changeMessage(this.data[0]);
+    this.selectedapi.changeAPIData(this.data[0]);
   }
   weatFun() {
     const weather = document.querySelector('.weather');
     console.log(weather);
-    this.selectedapi.changeMessage(this.data[1]);
+    this.selectedapi.changeAPIData(this.data[1]);
   }
   curFun() {
     const currency = document.querySelector('.currency');
     console.log(currency);
-    this.selectedapi.changeMessage(this.data[2]);
+    this.selectedapi.changeAPIData(this.data[2]);
   }
 }

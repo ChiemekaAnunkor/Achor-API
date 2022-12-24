@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserAuthService } from '../user-auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-apidashboard',
@@ -7,9 +8,18 @@ import { UserAuthService } from '../user-auth.service';
   styleUrls: ['./apidashboard.component.css'],
 })
 export class ApidashboardComponent implements OnInit {
-  constructor(private data: UserAuthService) {}
-  message: any | undefined;
+  constructor(private data: UserAuthService, private router: Router) {}
+  apiMessage: any | undefined;
   ngOnInit(): void {
-    this.data.currentMessage.subscribe((message) => (this.message = message));
+    this.data.currentApiMessage.subscribe(
+      (apiMessage) => (this.apiMessage = apiMessage)
+    );
+    if (!this.apiMessage) {
+      this.redirectToCollrections();
+    }
+  }
+
+  redirectToCollrections() {
+    this.router.navigate(['/collections']);
   }
 }

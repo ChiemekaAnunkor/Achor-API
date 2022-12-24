@@ -3,8 +3,10 @@ let Schema = mongoose.Schema;
 
 let tokenSchema = new Schema(
     {
-        access_token: {
+        api_key: {
             type: String,
+            require: true
+
         },
         user_id: { type: Schema.Types.ObjectId, ref: 'user' }
 
@@ -18,7 +20,7 @@ let tokenSchema = new Schema(
     }
 );
 
-let Token = mongoose.model("token", tokenSchema);
+let Token = mongoose.model("apikey", tokenSchema);
 
 
 

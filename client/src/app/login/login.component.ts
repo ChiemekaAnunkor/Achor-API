@@ -41,6 +41,9 @@ export class LoginComponent implements OnInit {
         this.getJsonValue = data;
         this.decoded = decode(this.getJsonValue.token);
         this.data.changeMessage(this.decoded);
+        console.log(this.decoded)
+
+        sessionStorage.setItem('loggedin', JSON.stringify(this.decoded));
         if (this.decoded) {
           this.router.navigate(['/userdash']);
         }

@@ -4,8 +4,8 @@ module.exports = {
     createToken: async (req, res) => {
 
         try {
-            let tokenData = await new Token(req.body).save()
-            res.status(200).json(tokenData)
+            let apiData = await new Token(req.body).save()
+            res.status(200).json(apiData)
         } catch (error) {
             res.status(400).json(error)
         }
@@ -13,21 +13,38 @@ module.exports = {
     },
     getTokens: async (req, res) => {
         try {
-            let tokenData = await Token.find().populate("user_id")
-            res.status(200).json(tokenData)
+            let apiData = await Token.find().populate("user_id")
+            res.status(200).json(apiData)
         } catch (error) {
             res.status(400).json(error)
 
         }
     },
     getOneToken: async (req, res) => {
+
+        let { api_key } = req.body
         try {
-            let tokenData = await Token.find()
-            res.status(200).json(tokenData)
+            let apiData = await Token.findOne({ api_key }).populate("user_id")
+            res.status(200).json(apiData)
         } catch (error) {
             res.status(400).json(error)
 
         }
     },
+    updateToken: async (req, res) => {
+        let { id, user_id } = req.body
+
+
+        try {
+            let apiData = await Token.findOneAndUpdate(id, user_id, {
+                new: true
+            })
+            res.status(200).json(apiData)
+
+        } catch (error) {
+            res.status(400).json(error)
+
+        }
+    }
 
 }

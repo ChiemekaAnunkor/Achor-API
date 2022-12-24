@@ -16,7 +16,7 @@ let userSchema = new Schema(
         password: {
             type: String,
         },
-        access_token_id: { type: Schema.Types.ObjectId, ref: 'token' }
+        access_token_id: { type: Schema.Types.ObjectId, ref: 'apikey' }
 
     },
     { timestamps: true },

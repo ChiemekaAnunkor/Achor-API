@@ -10,6 +10,10 @@ export class UserAuthService {
   currentMessage = this.messageSource.asObservable();
   newmessage: any;
 
+  private apiSource = new BehaviorSubject<any>('');
+  currentApiMessage = this.apiSource.asObservable();
+  newApmessage: any;
+
   constructor(private http: HttpClient) {}
   login(data: any): Observable<any> {
     return this.http.post(`http://localhost:4000/api/users/signin`, data);
@@ -26,5 +30,11 @@ export class UserAuthService {
   logout(message: any) {
     this.messageSource.next('');
     this.newmessage = '';
+  }
+
+  changeAPIData(apiMessage: any) {
+    this.apiSource.next(apiMessage);
+    this.newApmessage = apiMessage;
+    console.log(apiMessage);
   }
 }
