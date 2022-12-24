@@ -65,11 +65,8 @@ then run using
 ```
 node server.js
 ```
-
 ## Demo
 ![image](https://user-images.githubusercontent.com/63639477/209417889-748377b6-299e-4c59-8d49-87c3a4c0a5c3.png)
-
-![image](https://user-images.githubusercontent.com/63639477/209417851-7c72db8d-b966-479f-9a5d-a094c4569adf.png)
 
 ## links
  add deployed link here
