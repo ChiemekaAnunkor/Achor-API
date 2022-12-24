@@ -19,8 +19,8 @@ This is an api services simular to rapidapi, it over access to multiple API's, w
 
 Project is created with:
 Front end
+[![License: MIT](https://img.shields.io/badge/Angular%20JS-Angular%20JS-red.svg)](https://opensource.org/licenses/MIT)
 
-- Angular JS
 - HTML
 - CSS
 - Typescript
