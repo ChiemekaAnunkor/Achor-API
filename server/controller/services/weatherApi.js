@@ -16,8 +16,8 @@ module.exports = {
                     let weatherData = data.data
                     res.status(200).json(weatherData)
 
-                }).catch((err) => {
-                    console.log(err)
+                }).catch((error) => {
+                    res.status(400).json({ error, Message: "bad request" })
                 });
 
             } else {

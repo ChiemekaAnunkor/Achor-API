@@ -4,6 +4,7 @@ const { Token } = require("../../model")
 const { DEV_WEATHERAPIKEY } = process.env
 const puppeteer = require("puppeteer")
 const { scrollPageToBottom } = require('puppeteer-autoscroll-down')
+let rollbar = require("../../utils/rollbar")
 
 module.exports = {
     getPinterestApi: async (req, res) => {
@@ -54,9 +55,13 @@ module.exports = {
 
 
             } else {
+                // rollbar.error("invalid api key")
+
                 res.status(200).json({ Error: "Bad Request", err: { Message: "NO API KEY FOUND WITH REQUEST", res: { resolve: "Create an account to get api key  acess" } } })
             }
         } catch (error) {
+            // rollbar.error("endpoint failed, bad request")
+
             res.status(400).json({ error, Message: "bad request", msg: { msg: "check query params" } })
         }
 
